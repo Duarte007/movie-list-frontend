@@ -1,0 +1,30 @@
+.input-login{
+    margin: 5px !important;
+    width: 450px !important;
+}
+
+.button-login{
+    margin: 5px !important;
+    width: 450px;
+    background-color: red !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    border-color: #000 !important;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
