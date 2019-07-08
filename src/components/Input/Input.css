@@ -1,0 +1,15 @@
+.d-input{
+    width: 140px;
+    height: 25px;
+    border-radius: 4px;
+    transition: all 0.3s;
+    border: 1px solid #d9d9d9;
+    margin: 5px;
+    outline: none;
+}
+
+.d-input:hover, .d-input:focus{
+    transition: 0.5s;
+    box-shadow: 0 0 0 0.5px rgba(139, 6, 24, 0.459);
+    border: 1.3px solid rgba(133, 8, 8, 0.596);
+}
