@@ -1,23 +1,17 @@
 <template>
-  <div class="header">
-      <div class="login">
-        <DInput inputStyle="d-input"/>
-        <DInput/>
-        <a-button type="primary">Entrar</a-button>
-      </div>
-  </div>
+  <DLogin/>
 </template>
 
 <script>
 
 // import HelloWorld from './components/HelloWorld.vue'
-import DInput from './components/Input/Input.vue'
-// import DHeader from './components/Header/Header.vue'
+// import DLogin from './components/Input/Input.vue'
+import DLogin from './app/Login/Login.vue'
 
 export default {
   name: 'app',
   components: {
-    DInput,
+    DLogin,
     // DHeader,
     // HelloWorld
   }

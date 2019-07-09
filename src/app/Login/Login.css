@@ -1,0 +1,58 @@
+body{
+    background-color: #141414 !important;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.new-account{
+    display: grid;
+    padding: 10px;
+    margin-top: 105px;
+    margin-right: 30px;
+    width: 500px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 78px 78px 78px 78px 78px;
+}
+
+.body-login{
+    float: right;
+    margin-right: 80px; 
+}
+
+.teste{
+    float: left;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.link{
+    color: #000;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: rgb(56, 53, 53);
+}
+
+.btn-login{
+    margin-top: 23px;
+    background-color: rgb(228, 55, 55) !important;
+    border-color: #000 !important;
+    color: #000 !important;
+}
+
+.btn-create-user{
+    margin-top: 23px;
+    background-color: rgb(228, 55, 55) !important;
+    border-color: #000 !important;
+    color: #000 !important;
+    grid-column: span 1;
+}
+
+.img{
+    height: 70px;
+}

@@ -1,15 +1,28 @@
 .d-input{
-    width: 140px;
-    height: 25px;
+    width: 170px;
+    height: 35px;
     border-radius: 4px;
     transition: all 0.3s;
     border: 1px solid #d9d9d9;
     margin: 5px;
     outline: none;
+    color:#fff;
 }
 
 .d-input:hover, .d-input:focus{
     transition: 0.5s;
     box-shadow: 0 0 0 0.5px rgba(139, 6, 24, 0.459);
-    border: 1.3px solid rgba(133, 8, 8, 0.596);
+    border: 2px solid rgba(224, 0, 30, 0.83);
+}
+
+.double{
+    width: 410px;
+}
+
+.double-div{
+    grid-column: span 2;
+}
+
+label{
+    color: #fff;
 }

@@ -1,7 +1,8 @@
 <template>
-    <div>
-        <label for="a">Teste</label>
-        <input :class="inputStyle ? inputStyle : 'd-input'" name="a"/>
+    <div :class="classDiv">
+        <label>{{label ? label : ''}}<br>
+          <input class="d-input" :class="addStyle"/>
+        </label>
     </div>
 </template>
 
@@ -9,7 +10,9 @@
 export default {
   name: 'Input',
   props: {
-    inputStyle: String
+    addStyle: String,
+    classDiv: String,
+    label: String
   }
 }
 </script>
