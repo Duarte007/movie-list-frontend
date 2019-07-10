@@ -115,7 +115,7 @@
   </div>
 </template>
 <script>
-import descriptionItem from './descriptionItem'
+// import descriptionItem from './descriptionItem'
 
 export default {
   data() {
@@ -134,7 +134,7 @@ export default {
     }
   },
   components: {
-    descriptionItem,
+    // descriptionItem,
   },
   methods: {
     showDrawer() {
@@ -146,3 +146,4 @@ export default {
   },
 }
 </script>
+

@@ -1,7 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: #fff !important;
 }
+
+body{
+    background-color: #141414 !important;
+}
+
 
 .header{
     position: relative;
