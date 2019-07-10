@@ -1,5 +1,6 @@
 <template>
-    <div class="content">
+    <div>
+        
         <div class="header">
             <div class="teste"><img src="../../assets/images/movies.png" class="img"></div>
             <div class="body-login">
@@ -22,14 +23,21 @@
             </div>
         </div>
 
-        <div class="new-account">
-            <DInput :label="'Nome'"/>
-            <DInput :label="'Sobrenome'"/>
-            <DInput :addStyle="'double'" :classDiv="'double-div'" :label="'E-mail'"/>
-            <DInput :label="'Senha'"/>
-            <DInput :label="'Confirmar senha'"/>
-            <DInput :addStyle="'double'" :classDiv="'double-div'" :label="'Data de nascimento'"/>
-            <a-button class="btn-create-user" type="primary">Criar Conta</a-button>
+        <div class="content">
+
+            <div class="new-account">
+                <DInput :label="'Nome'"/>
+                <DInput :label="'Sobrenome'"/>
+                <DInput :addStyle="'double'" :classDiv="'double-div'" :label="'E-mail'"/>
+                <DInput :label="'Senha'"/>
+                <DInput :label="'Confirmar senha'"/>
+                <DInput :addStyle="'double'" :classDiv="'double-div'" :label="'Data de nascimento'"/>
+                <a-button class="btn-create-user" type="primary">Criar Conta</a-button>
+            </div>
+
+        </div>
+        <div class="footer">
+
         </div>
     </div>
 </template>
